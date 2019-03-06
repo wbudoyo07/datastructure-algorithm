@@ -22,9 +22,13 @@ function format(str, num) {
 
     while(letter.length !== num) {
         letter += str.toLowerCase();
+            // console.log(letter);
+
     }
+    console.log(letter);
     return letter;
 }
 
-accum("sas");
+
+console.log(accum("sas"));
 
