@@ -8,14 +8,15 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
-function reverseInt(n) {
-        // convert the number to string and reversed it 
-  const reversed = n.toString().split('').reverse().join('');
+// function reverseInt(n) {
+//         // convert the number to string and reversed it 
+//   const reversed = n.toString().split('').reverse().join('');
 
-  return parseInt(reversed) * Math.sign(n);
-}
+//   return parseInt(reversed) * Math.sign(n);
+// }
+// console.log(reverseInt(1234));
 
-module.exports = reverseInt;
+// module.exports = reverseInt;
 
 /*function reverseInt(n) {
     // convert the number to string and reversed it 
@@ -29,3 +30,8 @@ module.exports = reverseInt;
     }
 
 } */
+
+
+// console.log(palindromeCheck(87))
+// console.log(palindromeChainLength(4884));
+console.log(palindromeChainLength(87));
