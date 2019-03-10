@@ -15,7 +15,7 @@ var palindromeChainLength = function(n) {
         return step;
       }
 
-
+      console.log(step);
      return palindromeChainLength(sum);
       
   }
@@ -32,3 +32,5 @@ function palindromeCheck(a) {
             return false;
           }
   }
+
+palindromeChainLength(87);
